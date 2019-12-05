@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width">
+	<title>Calories Per Oz Calculator</title>
+	<link rel="stylesheet" href="calorieCountApp.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Calories Per Oz Calculator</h1>
+		<h3>the calculator for gram weeny backpackers</h3>
+	</header>
+
+	<main>
+		<div class="inputs">
+			<p id="calories">Calories per serving:</p>
+			<input type="text" class="inputs-type" id="caloriesInput">
+			<p id="weight">Serving size weight:</p>
+			<input type="text" class="inputs-type" id="weightInput">
+			
+			<div class="units">
+				<p id="unitsTitle">Unit of weight serving measured by:</p><br>
+				<input type="radio" id="grams" value="grams" name="unit"><p>grams</p>
+				<input type="radio" id="oz" value="ounces" name="unit"><p>ounces</p>
+			</div>
+		</div>
+
+		<button type="button">Calculate!</button>
+
+		<div><p class="output"></p></div>
+	</main>
+
+<script src="calorieCountApp.js"></script>
+</body>
+</html>
